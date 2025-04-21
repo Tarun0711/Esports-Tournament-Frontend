@@ -1,0 +1,41 @@
+.Navbar{
+    background: radial-gradient(rgb(35, 0, 0),rgb(0, 22, 35));
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.Navbar .LoginSignUp{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Logo{
+    text-align: center;
+    margin-top:7px;
+}
+a >img{
+    height: 140px;
+    width: 180px;
+    filter: drop-shadow(5px -5px 10px rgba(255, 0, 0, 0.388));
+}
+/* a {
+    font-size: 2.5em;
+    color: aliceblue;
+
+    height:50;
+    width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    span{
+       color: aqua;
+       text-shadow: 5px 5px 10px rgba(0, 132, 255, 0.692);
+
+
+    }
+} */

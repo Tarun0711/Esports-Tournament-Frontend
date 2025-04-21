@@ -1,0 +1,31 @@
+
+.main-button{
+    font-size: 1.2rem;
+    color: aliceblue;
+    height:50;
+    width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    border-radius: 15px;
+    transition: all ease-in-out 0.4s;
+    /* font-weight:  bold; */
+}
+ a{
+    text-decoration: none;
+}
+
+.active{
+    background:linear-gradient(to left,rgb(52, 0, 0), rgb(0, 0, 84));
+    border: 2px  solid ;
+    border-color:rgb(0, 0, 55);
+}
+.non-active{
+    background: none;
+    border: 2px  solid ;
+    border-color: rgb(42, 0, 0);
+}
+.main-button:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(78, 0, 0);
+}
